@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Task</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background-color: #2fb22f;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        #nav {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 10px;
+        }
+
+        #nav li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .bodysection {
+            display: flex;
+            flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 40%;
+        }
+
+        .card h1 {
+            color: #198754;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #198754;
+            margin: 0 10px;
+        }
+        .bodycontainer{
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bodycontainer"> <div class="container">
+        <h1>Welcome to Your Website Task</h1>
+        <ul id="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="bodysection">
+        <div class="card">
+            <h1>About CSS</h1>
+            <br>
+            <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and
+                more.</p>
+        </div>
+        <div class="card">
+            <h1>Box Model</h1>
+            <br>
+            <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders,
+                padding, and the actual content.</p>
+        </div>
+        <div class="card">
+            <br>
+                <h1>Responsive Design</h1>
+                <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+            </div>
+        </div></div>
+   
+
+    <footer>
+        <p>Created by Yasir Hameed | Follow us on
+            <a href="/">Instagram</a> |
+            <a href="/">Twitter</a> |
+            <a href="/">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+
+</html>
